@@ -1,3 +1,12 @@
+body {
+  background-color: #F3F0F0;
+}
+
+.background-white{
+  background-color: white;
+}
+
+
 #text-darkblue{
     color:rgb(19, 43, 169);
 }
@@ -9,3 +18,27 @@
   .custom-toggler.navbar-toggler {
     border-color: white;
   } 
+
+  .navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+  
+
+  .background-rainbow{
+    color: white;
+    background: url(../img/rainbow1.jpg) no-repeat;
+    background-size: 100%;
+    background-clip: padding-box;
+    background-position: center;
+    text-shadow: 2px 1.5px black;
+
+  }
+
+  .background-darkblue{
+    background-color:rgb(19, 43, 169); 
+  }
+
+  .bg-img-1{
+    background: url(../img/rainbow1.jpg) no-repeat;
+  }
