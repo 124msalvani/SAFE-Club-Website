@@ -6,39 +6,80 @@ body {
   background-color: white;
 }
 
+.text-darkblue{
+  color:rgb(19, 43, 169);
+}
+
+.text-purple{
+  color:rgb(57, 7, 117);
+}
 
 #text-darkblue{
     color:rgb(19, 43, 169);
 }
 
 .custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='3 3 25 25' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(19, 43, 169, 0.5)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='3 3 25 25' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(19, 43, 169, 0.5)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+} 
+
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
   
-  .custom-toggler.navbar-toggler {
-    border-color: white;
-  } 
 
-  .navbar-nav > li{
-    padding-left:30px;
-    padding-right:30px;
-  }
-  
+.background-rainbow{
+  color: white;
+  background: url(../img/rainbow1.jpg) no-repeat;
+  background-size: 100%;
+  background-clip: padding-box;
+  background-position: center;
+  text-shadow: 2px 1.5px black;
 
-  .background-rainbow{
-    color: white;
-    background: url(../img/rainbow1.jpg) no-repeat;
-    background-size: 100%;
-    background-clip: padding-box;
-    background-position: center;
-    text-shadow: 2px 1.5px black;
+}
 
-  }
+.background-darkblue{
+  background-color:rgb(19, 43, 169); 
+}
 
-  .background-darkblue{
-    background-color:rgb(19, 43, 169); 
-  }
+.bg-img-1{
+  background: url(../img/craft_one.jpg) no-repeat;
+  background-size: cover;
+  background-clip: padding-box;
+  background-position: center;
+}
 
-  .bg-img-1{
-    background: url(../img/rainbow1.jpg) no-repeat;
-  }
+.bg-img-2{
+  background: url(../img/waving_flags1.png) no-repeat;
+  background-size: cover;
+  background-clip: padding-box;
+  background-position: center;
+}
+
+.blurbox{
+  box-shadow: 3px 3px 10px rgb(92, 92, 92);
+}
+
+.border-black{
+  border: 2px solid black;
+  box-shadow: 1px 1px 5px rgb(92, 92, 92);
+}
+
+.height-test{
+  height: 250px;
+}
+
+.h3pt5{
+  font-size: large;
+}
+
+@media (min-width: 768px) { 
+  .ht3pt{
+    font-size: x-large;
+  } ;
+ };
+
