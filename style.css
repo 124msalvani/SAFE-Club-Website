@@ -1,9 +1,47 @@
 body {
-  background-color: #F3F0F0;
+  background-color: #d3ddff;
 }
+
+/* Navbar Hover Stroke  */
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+/*Navebar Style End*/
 
 .background-white{
   background-color: white;
+}
+
+.background-pink{
+  background-color: rgb(255, 255, 255);
 }
 
 .text-darkblue{
@@ -22,6 +60,8 @@ body {
   font-size: 6rem
 }
 
+/*Custom Navbar Toggler */
+
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='3 3 25 25' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(19, 43, 169, 0.5)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -30,12 +70,13 @@ body {
   border-color: white;
 } 
 
-.navbar-nav > li{
-  padding-left:30px;
-  padding-right:30px;
+.nav-item{
+  font-size: large;
 }
-  
 
+/*Toggler End */
+
+/*Header Background Images End */
 .background-rainbow{
   color: white;
   background: url(../img/rainbow1.jpg) no-repeat;
@@ -85,6 +126,8 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%);
   
 }
 
+/*Backround Images End */
+
 .blurbox{
   box-shadow: 3px 3px 10px rgb(92, 92, 92);
 }
@@ -97,6 +140,12 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%);
 .border-bottom{
   border-bottom: 2px solid rgb(0, 0, 0);
 }
+
+.border-left{
+  border-left: 2px solid rgb(0, 0, 0);
+}
+
+
 
 .height-test{
   height: 250px;
