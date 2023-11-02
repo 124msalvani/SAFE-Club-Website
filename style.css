@@ -89,7 +89,7 @@ nav.stroke ul li a:hover:after {
 
 .background-rainbow-2{
   color: white;
-  background: url(../img/wavey-rainbow.png) no-repeat;
+  background: url(../img/wavey-rainbow3.png) no-repeat;
   background-size: 100%;
   background-clip: padding-box;
   background-position: 5% 10%;;
@@ -119,10 +119,11 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%);
 }
 
 .bg-img-2{
-  background: url(../img/waving_flags1.png) no-repeat;
+  background: url(../img/BoroSafeClubInsta1.jpg) no-repeat;
   background-size: cover;
-  background-clip: padding-box;
-  background-position: center;
+  background-position: 0%;
+
+  
   
 }
 
