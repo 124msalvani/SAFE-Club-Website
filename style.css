@@ -2,6 +2,36 @@ body {
   background-color: #d3ddff;
 }
 
+/*FONTS */
+.Baskervville{
+  font-family: 'Baskervville', serif;
+}
+
+.Garamond{
+  font-family: 'EB Garamond', serif;
+}
+
+.Didot{
+  font-family: 'GFS Didot', serif;
+}
+
+.Bodoni{
+  font-family: 'Libre Bodoni', serif;
+}
+
+.Playfair{
+  font-family: 'Playfair Display', serif;
+}
+
+.Roboto{
+  font-family: 'Roboto', sans-serif;
+}
+
+.Handlee{
+  font-family: 'Handlee', cursive;
+}
+
+
 /* Navbar Hover Stroke  */
 
 nav ul li a,
@@ -122,9 +152,6 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%);
   background: url(../img/BoroSafeClubInsta1.jpg) no-repeat;
   background-size: cover;
   background-position: 0%;
-
-  
-  
 }
 
 /*Backround Images End */
