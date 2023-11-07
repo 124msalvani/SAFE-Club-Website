@@ -86,8 +86,12 @@ nav.stroke ul li a:hover:after {
     color:rgb(19, 43, 169);
 }
 
-.display-1{
-  font-size: 6rem
+.bold{
+  font-weight:bold;
+}
+
+#TITLE{
+  font-size: 7em;
 }
 
 /*Custom Navbar Toggler */
@@ -128,18 +132,14 @@ nav.stroke ul li a:hover:after {
 
 .background-rainbow-3{
   color: white;
-  background: url(../img/wavey-rainbow2.png) no-repeat;
+  background: url(../img/pastel-gradient-1.jpg) no-repeat;
   background-size: 100%;
   background-clip: padding-box;
   background-position: 50% 95%;;
   text-shadow: 2px 1.5px black;
-  
+  border-radius: 5%
 }
 
-.background-darkblue{
-  background: rgb(2,0,36);
-background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%);
-}
 
 .bg-img-1{
   background: url(../img/craft_one.jpg) no-repeat;
@@ -152,6 +152,12 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%);
   background: url(../img/BoroSafeClubInsta1.jpg) no-repeat;
   background-size: cover;
   background-position: 0%;
+}
+
+.bluebackground-gradient{
+  background-color:rgb(35, 0, 148);
+  background-clip: padding-box;
+  background-position: center;
 }
 
 /*Backround Images End */
@@ -187,9 +193,9 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%);
 }
 
 
+
 a:link#insta-link{
   color: rgb(22, 41, 255);
-  font-size: 2.6vw;
 }
 
 a:visited#insta-link{
@@ -228,5 +234,31 @@ a:active#white-link-text{
   font-size: 1.5rem;
 };
 
+#insta-link{
+  font-size: 3em;
+  font-weight: bold;
+}
 
 
+
+@media only screen and (max-width: 1017px) {
+  #insta-link {
+    font-size: 4.5vw;
+  }
+}
+
+
+@media only screen and (max-width: 555px) {
+  .background-rainbow {
+    background-size: 150%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #insta-link {
+    font-size: 4vw;
+  }
+  #follow-us{
+    font-size: 5vw;
+  }
+}
