@@ -7,16 +7,12 @@ body {
   font-family: 'Baskervville', serif;
 }
 
+.Dosis{
+  font-family: 'Dosis', sans-serif;
+}
+
 .Garamond{
   font-family: 'EB Garamond', serif;
-}
-
-.Didot{
-  font-family: 'GFS Didot', serif;
-}
-
-.Bodoni{
-  font-family: 'Libre Bodoni', serif;
 }
 
 .Playfair{
@@ -27,8 +23,18 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.Handlee{
-  font-family: 'Handlee', cursive;
+.Alegreya{
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.Alegreya2{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400;
+}
+
+.Alegreya3{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 500;
 }
 
 
@@ -71,7 +77,7 @@ nav.stroke ul li a:hover:after {
 }
 
 .background-pink{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 220, 220);
 }
 
 .text-darkblue{
@@ -94,6 +100,14 @@ nav.stroke ul li a:hover:after {
   font-size: 7em;
 }
 
+#Leaders{
+  font-size: 6.5em;
+}
+
+.display-7{
+  font-size: calc(1.375rem + .75vw);
+}
+
 /*Custom Navbar Toggler */
 
 .custom-toggler .navbar-toggler-icon {
@@ -110,7 +124,59 @@ nav.stroke ul li a:hover:after {
 
 /*Toggler End */
 
-/*Header Background Images End */
+/*Box Flip Test*/
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: white;
+  flex: auto;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side */
+.flip-box-front {
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+/*Box Flip End */
+
+
+
+
+/*Header Background Images Starts */
 .background-rainbow{
   color: white;
   background: url(../img/rainbow1.jpg) no-repeat;
@@ -132,12 +198,12 @@ nav.stroke ul li a:hover:after {
 
 .background-rainbow-3{
   color: white;
-  background: url(../img/pastel-gradient-1.jpg) no-repeat;
+  background: url(../img/wavey-rainbow4.png) no-repeat;
   background-size: 100%;
   background-clip: padding-box;
   background-position: 50% 95%;;
   text-shadow: 2px 1.5px black;
-  border-radius: 5%
+  
 }
 
 
