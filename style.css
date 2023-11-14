@@ -129,8 +129,8 @@ nav.stroke ul li a:hover:after {
 .flip-box {
   background-color: white;
   flex: auto;
-  width: 300px;
-  height: 200px;
+  width: auto;
+  height: 100px;
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -243,14 +243,38 @@ nav.stroke ul li a:hover:after {
 
 .border-left{
   border-left: 2px solid rgb(0, 0, 0);
+  padding-right: .25rem;
 }
 
-
+.follow-spacing{
+  padding-top: 1.25rem;
+}
 
 .height-test{
-  height: 250px;
+  height: 260px;
 }
  
+
+/*Border between col test */
+
+.border-between > [class*='col-']:before {
+  background: #e3e3e3;
+  bottom: 0;
+  content: " ";
+  left: 0;
+  position: absolute;
+  width: 1px;
+  top: 0;
+}
+
+.border-between > [class*='col-']:first-child:before {
+  display: none;
+}
+
+
+
+
+/*Border test end */
 
 .flagsize{
   width: 100%;
@@ -258,7 +282,9 @@ nav.stroke ul li a:hover:after {
   height: auto;
 }
 
-
+.contact-spacing{
+  padding-top: .25rem;
+}
 
 a:link#insta-link{
   color: rgb(22, 41, 255);
@@ -305,12 +331,24 @@ a:active#white-link-text{
   font-weight: bold;
 }
 
+.instaicon{
+  height: 0%;
+}
+
 
 
 @media only screen and (max-width: 1017px) {
   #insta-link {
     font-size: 4.5vw;
   }
+  .contact-spacing {
+    padding-top: 0%;
+  }
+  .follow-spacing{
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  
 }
 
 
@@ -318,6 +356,10 @@ a:active#white-link-text{
   .background-rainbow {
     background-size: 150%;
   }
+  .instaicon{
+    height: 25%;
+  }
+  
 }
 
 @media only screen and (max-width: 400px) {
@@ -327,4 +369,8 @@ a:active#white-link-text{
   #follow-us{
     font-size: 5vw;
   }
+  
+  
 }
+
+
