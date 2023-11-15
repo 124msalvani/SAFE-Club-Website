@@ -9,6 +9,9 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet" type="text/css" />
 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500&family=Baskervville&family=Dosis:wght@300&family=EB+Garamond:wght@400;600&family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -16,7 +19,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light stroke background-white">
+  <nav class="navbar stroke navbar-expand-lg navbar-light background-white">
     <div class="container-fluid">
       <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#collapsingNavbar4" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -26,8 +29,8 @@
       
 
       <div class="collapse navbar-collapse justify-content-center" id="collapsingNavbar4">
-        <ul class="navbar-nav">
-          <li class="nav-item Alegreya px-5" >
+        <ul class="navbar-nav Alegreya">
+          <li class="nav-item px-5" >
             <a id="text-darkblue" class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item px-5">
@@ -40,7 +43,7 @@
             <a id="text-darkblue" class="nav-link" href="about.html#PrevEvents">Previous Events</a>
           </li>
           <li class="nav-item px-5">
-            <a id="text-darkblue" class="nav-link" href="calendar.html">Calendar</a>
+            <a id="text-darkblue" class="nav-link" href="index.html#Calendar">Calendar</a>
           </li>
         </ul>
       </div>
@@ -50,13 +53,13 @@
   <div class="container-fluid">
     
     <div class="row background-rainbow-2 py-5 text-center">
-      <div class="col">
+      <div data-aos="fade-up" class="col" >
         <h1 id="TITLE" class="display-1 Baskervville"><u>About Us</u></h1>
       </div>
     </div>
   </div>
 
-  <div class="container my-5">
+  <div data-aos="fade-down" class="container my-5">
     <div class="row background-white m-3 py-3 px-4 justify-content-center blurbox">
       <div class="col text-white">
         <h2 id="text-darkblue"  class="text-center display-3 Alegreya2">Our Mission: To raise awareness about LGBT+ issues in our school community 
@@ -69,8 +72,8 @@
 
 
 
-  <div class="container background-white my-5">
-    <div class="row p-3 blurbox"> <h1 class="text-black display-4 Alegreya">SAFE Club is where we come together as a community and discuss: </h1>
+  <div data-aos="fade-down" class="container background-white my-5">
+    <div  class="row p-3 blurbox"> <h1 class="text-black display-4 Alegreya">SAFE Club is where we come together as a community and discuss: </h1>
       <div class="col">
         <div class="row">
           <div class="col-5 text-start text-black h3pt5 Dosis">
@@ -94,7 +97,7 @@
   <div class="container-fluid background-white Dosis">
     
     <div class="row background-rainbow-3 py-5 text-center">
-      <div class="col">
+      <div data-aos="fade-up" class="col">
         <h1 id="Leaders" class="display-1 Baskervville"><u>About The Leaders!</u></h1>
       </div>
     </div>
@@ -190,13 +193,38 @@
   </div>
 
 
+  <div id="PrevEvents" class="container-fluid background-white">
+    <div class="row background-rainbow-4 py-5 text-center">
+      <div data-aos="fade-down"
+      data-aos-duration="500" class="col">
+        <h1 id="TITLE" class="display-1 Baskervville"><u>Previous Events</u></h1>
+      </div>
+    </div>
+  
+    
+    <div class="row py-3 text-center ">
+      <div data-aos="fade-right" class="col text-white p-3 ">
+        <h1 class="display-3 Alegreya2 text-darkblue" >Our club has been running for 8 years, and we have done so many fun activities! </h1>
+        <h6 class="lead display-7 Dosis text-black"><img class= "blurbox flagsize" src="img/PrideBalloons.webp" alt="Craft"> </h6></br>
+    </div>
+    <div data-aos="fade-left" class="col pt-5">
+      <h3>We march in in the homecoming parade! We meet up after school to make the banner and march from Rita’s all the way to the school. We take volunteers to help with the banner and to walk in the parade.</h3>
+      <br> <h3>We participate in the school's Trunk or Treat! This year, we did a Rocky Horror Show themed trunk, and we gave out candy to all the children in the Boro!</h3>
+    </div>
+    </div>
+  </div>
+
+
 
 
   
   <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="script.js"></script>
 </body>
 

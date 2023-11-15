@@ -207,6 +207,17 @@ nav.stroke ul li a:hover:after {
 }
 
 
+.background-rainbow-4{
+  color: white;
+  background: url(../img/wavey-rainbow.png) no-repeat;
+  background-size: 100%;
+  background-clip: padding-box;
+  background-position: 50% 95%;;
+  text-shadow: 2px 1.5px black;
+  
+}
+
+
 .bg-img-1{
   background: url(../img/craft_one.jpg) no-repeat;
   background-size: cover;
@@ -257,24 +268,10 @@ nav.stroke ul li a:hover:after {
 
 /*Border between col test */
 
-.border-between > [class*='col-']:before {
-  background: #e3e3e3;
-  bottom: 0;
-  content: " ";
-  left: 0;
-  position: absolute;
-  width: 1px;
-  top: 0;
-}
-
-.border-between > [class*='col-']:first-child:before {
-  display: none;
-}
 
 
 
 
-/*Border test end */
 
 .flagsize{
   width: 100%;
@@ -285,6 +282,10 @@ nav.stroke ul li a:hover:after {
 .contact-spacing{
   padding-top: .25rem;
 }
+
+
+
+/*INSTALINK STUFF */
 
 a:link#insta-link{
   color: rgb(22, 41, 255);
@@ -297,6 +298,18 @@ a:visited#insta-link{
 a:hover#insta-link{
   color:rgb(35, 0, 148);
 }
+
+#insta-link{
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.instaicon{
+  height: 0px;
+}
+
+
+/*CONTACT LINK STUFF */
 
 a:active#white-link-text{
   color:rgb(0, 0, 0);
@@ -326,13 +339,22 @@ a:active#white-link-text{
   font-size: 1.5rem;
 };
 
-#insta-link{
-  font-size: 3em;
-  font-weight: bold;
+
+
+
+
+
+
+/*CALENDAR STUFF */
+
+#CalendarStyle{
+  height: 30%;
+  border:solid 1px #777;
+  width:"50%"  
 }
 
-.instaicon{
-  height: 0%;
+.height-calendarcont{
+  height: 400px;
 }
 
 
@@ -348,6 +370,9 @@ a:active#white-link-text{
     padding-top: 5%;
     padding-bottom: 5%;
   }
+  .instaicon{
+    height: 0px;
+  }
   
 }
 
@@ -357,17 +382,29 @@ a:active#white-link-text{
     background-size: 150%;
   }
   .instaicon{
-    height: 25%;
+    height: 25px;
   }
-  
+
+  #follow-us{
+   color: white;
+   padding-top: 5%;
+  }
+  .instaicon{
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 540px) {
   #insta-link {
-    font-size: 4vw;
+    font-size: 4.49vw;
   }
   #follow-us{
-    font-size: 5vw;
+    font-size: 6.5vw;
+   padding-top: 5%;
   }
   
   
