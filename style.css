@@ -179,7 +179,7 @@ nav.stroke ul li a:hover:after {
 /*Header Background Images Starts */
 .background-rainbow{
   color: white;
-  background: url(../img/rainbow1.jpg) no-repeat;
+  background: url(img/rainbow1.jpg) no-repeat;
   background-size: 100%;
   background-clip: padding-box;
   background-position: center;
@@ -189,7 +189,7 @@ nav.stroke ul li a:hover:after {
 
 .background-rainbow-2{
   color: white;
-  background: url(../img/wavey-rainbow3.png) no-repeat;
+  background: url(img/wavey-rainbow3.png) no-repeat;
   background-size: 100%;
   background-clip: padding-box;
   background-position: 5% 10%;;
@@ -198,7 +198,7 @@ nav.stroke ul li a:hover:after {
 
 .background-rainbow-3{
   color: white;
-  background: url(../img/wavey-rainbow4.png) no-repeat;
+  background: url(.img/wavey-rainbow4.png) no-repeat;
   background-size: 100%;
   background-clip: padding-box;
   background-position: 50% 95%;;
@@ -209,7 +209,7 @@ nav.stroke ul li a:hover:after {
 
 .background-rainbow-4{
   color: white;
-  background: url(../img/wavey-rainbow.png) no-repeat;
+  background: url(img/wavey-rainbow.png) no-repeat;
   background-size: 100%;
   background-clip: padding-box;
   background-position: 50% 95%;;
@@ -219,14 +219,14 @@ nav.stroke ul li a:hover:after {
 
 
 .bg-img-1{
-  background: url(../img/craft_one.jpg) no-repeat;
+  background: url(img/craft_one.jpg) no-repeat;
   background-size: cover;
   background-clip: padding-box;
   background-position: center;
 }
 
 .bg-img-2{
-  background: url(../img/BoroSafeClubInsta1.jpg) no-repeat;
+  background: url(img/BoroSafeClubInsta1.jpg) no-repeat;
   background-size: cover;
   background-position: 0%;
 }
